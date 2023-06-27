@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.nav {
+  background: #0001;
+  padding: 1em;
+  box-shadow: 0px 0px 8px 8px #00000009;
+}
+.container {
+  background: #fff;
+  margin: 1.5em;
+  color: #111;
+}
+h1, h2, h3 {
+  text-shadow: 0px 2px 4px #0002;
+}
+p {
+  text-shadow: 0px 2px 2px #0002;
+}
+h4, h5, h6 {
+  font-size: 1em;
+  font-weight: 400;
+}
+a {
+  color: #0088ff;
+}
+.button {
+  text-decoration: none;
+  background-color: #0088ff;
+  padding: 0.75em 1.25em;
+  border-radius: 0.5em;
+  box-shadow: 0px 4px 8px 4px #0002;
+  color: #fff;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #0099ff;
+  padding: 1em 1.5em;
+  transition: 0.5s;
+}
+.nav * {
+  color: #111;
+  text-decoration: none;
+}
+img {
+  border-radius: 0.5em;
+  box-shadow: 0px 4px 8px 4px #0002;
+}
